@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+                <form id="myform">
+                <fieldset>
+     <label for="Fname">First Name:</label>
+     <input type="text" name="Fname" id="fname">
+     <span class="error" id="err_fname">please enter a valid name (of atleast 3 characters)</span><br>
+     <label for="Lname">Last Name:</label>
+     <input type="text" name="Lname" id="lname"><span class="error" id="err_lname">please enter a valid name (of atleast 4 characters)</span><br>
+     <input type="button" id="showElements" value="Check details" ></button>
+    </fieldset>
+    </form> 
+     </div>
+     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+
+        $(document).ready(function(){
+            $(".error").hide()
+       
+            if(FnameL<3)
+{
+    $("#err_fname").show();
+    error=false;
+
+}
+if(LnameL<4)
+{
+    $("#err_lname").show();
+    error=false;
+}
+
+          else(error)
+
+    alert("please enter atleast 3 character in first name and 4 characters in surname:"+ fname + " "+lname);
+        return true;
+     });
+    
+
+
+</script>
+
+</body>
+</html> 

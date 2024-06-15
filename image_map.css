@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body
+{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: medium;  
+ color:rgba(252, 246, 249, 0.953);
+ background-color:black; 
+ background-image:url("beauty\,jpg.jpg") ;
+ background-size: cover;
+ margin-left: 0ch;
+ margin: top 3;
+}
+
+ol
+{
+ display: block;
+ list-style-type: lower-alpha;
+ padding-bottom:45px;
+ margin-top: 2em;
+ margin-bottom: 2em;
+}
+
+#container
+{
+    background-color: rgba(115, 59, 77, 0.255);
+    margin-top:5%;
+    margin-left:5%;
+    width:500px;
+    border-right : 5px solid #ece1e1;
+    border-left : 5px solid rgb(251, 249, 249);
+    left:50%;
+    ;
+}
+
+#footer
+{
+    background-color: rgba(115, 59, 77, 0.255);
+    margin-top:5%;
+    margin-left:5%;
+    width:500px;
+    border-right : 5px solid #ece1e1;
+    border-left : 5px solid rgb(251, 249, 249);
+    left:50%;
+
+}
+
+
+
+.image
+
+{
+transform:'rotate(15deg) Translate(10px,5px) skew(25deg,0deg)'
+}
+
+h1
+{
+text-align: right;
+color:rgba(252, 232, 232, 0.942)
+}
+
+h2
+{
+ text-align: center;
+ color:rgba(243, 222, 222, 0.901)
+}

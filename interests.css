@@ -1,0 +1,31 @@
+@charset "utf-8";
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color:rosybrown;
+    background-image: url("beauty\,jpg.jpg");
+    background-size:cover;
+    font-style:inherit ;
+}
+
+#container
+{
+background-color: rgba(52, 49, 47, 0.729);
+height:1000px;
+width:1500px;
+text-align: center;
+ border-bottom:5px solid rosybrown;
+border-top:15px solid rgba(188, 143, 143, 0.634);
+align-items: center;
+text-transform: uppercase;
+}
+
+p
+{
+background-color: rgba(246, 248, 251, 0.966);
+}
+ 
+ 
+
+

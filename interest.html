@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+     <title>interest</title>
+     <link rel="stylesheet" type="text/css" href="interests.css">
+     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+     <style>
+        body
+            {
+               font-size:17px; 
+            }
+        header
+        {
+            background:rgba(67, 64, 64, 0.801);
+            text-transform:uppercase;
+            text-align: center;
+        }
+                
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>my webpage</h1>
+            </header>
+             
+            <div id="container">
+                <h1 id="top">fathima hanaan's webpage</h1>
+             <button id="btn1">veiw main interest for Hanaan</button>
+             <button id="btn2">see my other interest</button>
+             <p class="paragraph1">veiw my main interest <br> 
+                <img src="makeup.jpg"  alt="makeup" height="200" width="300"><br>
+              <b>makeup and makeover</b>
+            </p>
+             
+            <p class="paragraph2"> see my other interest are <br>
+                <br> cooking,makeover....<br>
+                <b>cooking one of my favorite interest and this is the image of food
+                    when you prepare your own meals,you have more control over the ingredients.
+                </b><br>
+              <img  src="coffeee.jpg" alt="coffeee" height="400" width="800"><br>
+             <img  src="salmon-518032.jpg" alt="food" height="400" width="500"><br>
+              personal interest include leisure activities,spiritual practices,traditional activities.terests are activities enjoyed ina person's free time.
+              They can include many hobbies,sports,art
+            </p>
+            
+            <ul>
+            <li><a href="#top">go to the top of the document</a></li>
+            </ul>
+        
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $('#btn2').on("click",function(){
+                        $('.paragraph2').toggle();
+                        
+            });
+            $('#btn1').on("click",function(){
+                        $('.paragraph1').toggle();
+                        
+            });
+        });
+                
+              </script>
+            </body>
+            </html>
